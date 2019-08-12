@@ -1,7 +1,7 @@
 def merge_the_tools(s, k):
     # your code goes here
     m= list(map(''.join, zip(*[iter(s)]*k)))
-    for i in k:
+    for i in m:
         z= ''.join(sorted(set(i), key=i.index))
         print(z)
 
