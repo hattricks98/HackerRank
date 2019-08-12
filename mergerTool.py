@@ -6,5 +6,5 @@ def merge_the_tools(s, k):
         print(z)
 
 if __name__ == '__main__':
-    string, k = input(), int(input())
+    string, k = input("enter string: "), int(input("Enter Number: "))
     merge_the_tools(string, k)
